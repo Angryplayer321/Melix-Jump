@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637968524520000000
-    m_Hash: 3495729611
+      ticks: 637985687720000000
+    m_Hash: 1793419799
   m_LockFileStatus:
     m_FilePath: /Users/ayxanagayev/Desktop/Melix_Jump/Melix-Jump/Melix Jump/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637968524530000000
-    m_Hash: 2748144516
+      ticks: 637985687730000000
+    m_Hash: 3973715789
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -889,49 +889,92 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
         revision: 527e4364e28028f20f04fc51db671eb4bb910a26
         path: 
-    - packageId: com.unity.ugui@1.0.0
+    - packageId: net.dynamicbox.eventmanagement@https://github.com/mechaniqe/event-management.git
       testable: 0
       isDirectDependency: 1
       version: 1.0.0
-      source: 2
-      resolvedPath: /Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui
-      assetPath: Packages/com.unity.ugui
-      name: com.unity.ugui
-      displayName: Unity UI
+      source: 5
+      resolvedPath: /Users/ayxanagayev/Desktop/Melix_Jump/Melix-Jump/Melix Jump/Library/PackageCache/net.dynamicbox.eventmanagement@793bdc4f50
+      assetPath: Packages/net.dynamicbox.eventmanagement
+      name: net.dynamicbox.eventmanagement
+      displayName: Event Manager
       author:
         name: 
         email: 
         url: 
-      category: 
+      category: Utils
       type: 
-      description: "Unity UI is a UI toolkit for developing user interfaces for games
-        and applications. It is a GameObject-based UI system that uses Components
-        and the Game View to arrange, position, and style user interfaces. \u200B
-        You cannot use Unity UI to create or change user interfaces in the Unity
-        Editor."
+      description: 'This package contains "Event Manager" we frequently use in our
+        games.
+
+
+        Reach out to sahin@agilesolutions.az for extra details.'
       status: 4
       errors: []
       versions:
-        all:
-        - 1.0.0
-        compatible:
-        - 1.0.0
-        verified: 1.0.0
-      dependencies:
-      - name: com.unity.modules.ui
-        version: 1.0.0
-      - name: com.unity.modules.imgui
-        version: 1.0.0
-      resolvedDependencies:
-      - name: com.unity.modules.ui
-        version: 1.0.0
-      - name: com.unity.modules.imgui
-        version: 1.0.0
+        all: []
+        compatible: []
+        verified: 
+      dependencies: []
+      resolvedDependencies: []
       keywords:
-      - UI
-      - ugui
-      - Unity UI
-      - Canvas
+      - dynamicbox
+      - agile
+      - event
+      - events
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: net.dynamicbox.savemanagement@https://github.com/mechaniqe/save-management.git
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.2
+      source: 5
+      resolvedPath: /Users/ayxanagayev/Desktop/Melix_Jump/Melix-Jump/Melix Jump/Library/PackageCache/net.dynamicbox.savemanagement@11651052f9
+      assetPath: Packages/net.dynamicbox.savemanagement
+      name: net.dynamicbox.savemanagement
+      displayName: Save Manager
+      author:
+        name: 
+        email: 
+        url: 
+      category: Utils
+      type: 
+      description: 'This package contains "Save Manager" we frequently use in our
+        games.
+
+
+        Reach out to sahin@agilesolutions.az for extra details.'
+      status: 4
+      errors: []
+      versions:
+        all: []
+        compatible: []
+        verified: 
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - dynamicbox
+      - agile
+      - save
+      - saves
       registry:
         id: 
         name: 
@@ -2674,6 +2717,69 @@ m_PackageAssets:
       - name: com.unity.modules.jsonserialize
         version: 1.0.0
       keywords: []
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.ugui@1.0.0
+      testable: 0
+      isDirectDependency: 0
+      version: 1.0.0
+      source: 2
+      resolvedPath: /Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui
+      assetPath: Packages/com.unity.ugui
+      name: com.unity.ugui
+      displayName: Unity UI
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: "Unity UI is a UI toolkit for developing user interfaces for games
+        and applications. It is a GameObject-based UI system that uses Components
+        and the Game View to arrange, position, and style user interfaces. \u200B
+        You cannot use Unity UI to create or change user interfaces in the Unity
+        Editor."
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies:
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      keywords:
+      - UI
+      - ugui
+      - Unity UI
+      - Canvas
       registry:
         id: 
         name: 
