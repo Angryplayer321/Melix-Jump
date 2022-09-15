@@ -3202,15 +3202,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1886561977}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalScale: {x: 1.3, y: 1.3, z: 1}
   m_Children: []
   m_Father: {fileID: 268834442}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -2345}
+  m_AnchoredPosition: {x: 0, y: -3585}
   m_SizeDelta: {x: 2500, y: 2500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1886561979
@@ -3803,7 +3803,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dad2ac9e33f9e42489217e6ba1129885, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 1000
+  rotationSpeed: 300
 --- !u!4 &2098126379
 Transform:
   m_ObjectHideFlags: 0
@@ -4095,6 +4095,14 @@ PrefabInstance:
     - target: {fileID: 7023324271147793677, guid: eb514c36e7412446b94f908a28b96226, type: 3}
       propertyPath: m_Name
       value: PlayerPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 7023324271147793677, guid: eb514c36e7412446b94f908a28b96226, type: 3}
+      propertyPath: m_TagString
+      value: Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: 7023324271233048668, guid: eb514c36e7412446b94f908a28b96226, type: 3}
+      propertyPath: m_TagString
+      value: Ball
       objectReference: {fileID: 0}
     - target: {fileID: 7123567036339273871, guid: eb514c36e7412446b94f908a28b96226, type: 3}
       propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].time
